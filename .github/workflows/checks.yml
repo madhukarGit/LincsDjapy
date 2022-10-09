@@ -10,8 +10,8 @@ jobs:
       - name: Login to Docker Hub
         uses: docker/login-action
         with:
-          username: ${{ secrets.DOCKERHUB_USER }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          username: DjangoClient
+          password: dckr_pat_g32AeByYJhRCVrt_MNqt0GESaFo
       - name: Checkout
         uses: actions/checkout@v2
       - name: Test
